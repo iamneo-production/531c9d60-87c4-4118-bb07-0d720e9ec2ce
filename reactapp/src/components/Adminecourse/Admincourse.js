@@ -2,8 +2,6 @@ import "../styles/Viewacademy.css"
 import SearchIcon from '@material-ui/icons/Search';
 import deleteicon from "../assests/delete.png"
 import editicon from "../assests/edit.png"
-import { useState } from "react";
-import Enrolledcourse from "../EnrolledCourse/Enrolledcourse";
 import Adminheader from "../Adminheader";
 import { useNavigate } from "react-router-dom";
 
@@ -15,8 +13,10 @@ export default function Admincourse() {
     ]
 
     const handleDelete = () => {
-
+        
     }
+
+    
 
     const handleEdit = () => {
         navigate("/editcourse")
